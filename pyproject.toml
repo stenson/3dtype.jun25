@@ -1,0 +1,12 @@
+[project]
+name = "3dtype-jun25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "coldtype[viewer]>=0.12.2",
+]
+
+[tool.uv.sources]
+coldtype = { path = "../../coldtype", editable = true }
