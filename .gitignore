@@ -3,4 +3,6 @@ output
 finals
 _3d
 blends/*.png
+blends/*/*.png
 *.key
+*.mov

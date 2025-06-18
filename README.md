@@ -7,18 +7,19 @@
     - Morning
         - Short presentation of Blender typography
         - Blender basics
-        - Moving, scaling, rotating
-        - Adding light
-        - Adding materials
-        - Positioning the camera
-        - Configuring the interface
+            - Moving, scaling, rotating
+            - Adding light
+            - Adding materials
+            - Positioning the camera
+                - Camera/lens discussion/demonstration with real camera
+            - Configuring the interface
     - Afternoon
         - ST2 basics
-        - Choosing a font
-        - Configuring a font
+            - Choosing a font
+            - Configuring a font
         - A little physics
-        - Setting up a passive object
-        - Setting up our active objects
+            - Setting up a passive object
+            - Setting up our active objects
         - Baking an animation
         - Rendering an animation
 
