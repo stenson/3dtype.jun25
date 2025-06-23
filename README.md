@@ -1,7 +1,12 @@
-
+### Links
 
 - ST2 introduction talk: https://www.youtube.com/watch?v=gV2laWd727U
 
+- Download Blender: https://www.blender.org/download/
+
+- Download ST2: https://coldtype.xyz/st2/releases/ST2-v0-19b.zip
+
+### Itinerary
 
 - Day One
     - Morning
@@ -11,7 +16,7 @@
             - Adding light
             - Adding materials
             - Positioning the camera
-                - Camera/lens discussion/demonstration with real camera
+                - Camera/lens discussion
             - Configuring the interface
     - Afternoon
         - ST2 basics
