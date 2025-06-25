@@ -6,7 +6,7 @@
 
 - Download UV (optional): https://docs.astral.sh/uv/getting-started/installation/
 
-- Download ST2: https://coldtype.xyz/st2/releases/ST2-v0-19b.zip
+- Download ST2: https://coldtype.xyz/st2/releases/ST2-v0-19b2.zip
 
 - Videos:
     - The Exchange Student (1967): https://www.youtube.com/watch?v=8JeUzyMiTjk
