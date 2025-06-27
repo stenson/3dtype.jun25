@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "coldtype", extras = ["viewer"], editable = "../../coldtype" }]
+requires-dist = [{ name = "coldtype", extras = ["viewer"], specifier = ">=0.12.2" }]
 
 [[package]]
 name = "appdirs"
@@ -248,7 +248,7 @@ wheels = [
 [[package]]
 name = "coldtype"
 version = "0.12.2"
-source = { editable = "../../coldtype" }
+source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "b3denv" },
     { name = "coldtype-fontgoggles" },
@@ -257,6 +257,10 @@ dependencies = [
     { name = "fontpens" },
     { name = "skia-pathops" },
     { name = "uharfbuzz" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3a/5b/ee94e67d6d70790207a588e00936344c82ed532abff7ee53de37b21e7a26/coldtype-0.12.2.tar.gz", hash = "sha256:18dda768a2f0f44b5bd478d49f48d31fd61e36b97e109d8b27dcaf58969e873b", size = 8331815 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/da/2d/aa64f61a7a6ad5ed136bdf2b5f3c38786f37f5f93bb3635d8dcbd941762c/coldtype-0.12.2-py3-none-any.whl", hash = "sha256:6f29d4bac582fa97b296942c666c6042ffadbfb09149fc1b31cc88277ff5bef1", size = 638163 },
 ]
 
 [package.optional-dependencies]
@@ -271,70 +275,6 @@ viewer = [
     { name = "skia-pathops" },
     { name = "skia-python" },
     { name = "ufo2ft" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "b3denv", specifier = ">=0.0.12" },
-    { name = "beautifulsoup4", marker = "extra == 'website'" },
-    { name = "brotli", marker = "extra == 'website'" },
-    { name = "coldtype-fontgoggles", specifier = "==1.8.4.7" },
-    { name = "coldtype-fontgoggles", extras = ["more-fonts"], marker = "extra == 'more-fonts'", specifier = "==1.8.4.7" },
-    { name = "coldtype-fontgoggles", extras = ["more-fonts"], marker = "extra == 'viewer'", specifier = "==1.8.4.7" },
-    { name = "defcon", specifier = ">=0.12.0" },
-    { name = "easing-functions", specifier = "==1.0.4" },
-    { name = "favicons", marker = "extra == 'website'" },
-    { name = "fontpens", specifier = "==0.2.4" },
-    { name = "glfw", marker = "extra == 'viewer'" },
-    { name = "jinja2", marker = "extra == 'website'" },
-    { name = "livereload", marker = "extra == 'website'" },
-    { name = "lxml", marker = "extra == 'website'" },
-    { name = "markdown", marker = "extra == 'website'" },
-    { name = "markdown-captions", marker = "extra == 'website'" },
-    { name = "mido", marker = "extra == 'viewer'" },
-    { name = "numpy", marker = "extra == 'drawbot'" },
-    { name = "numpy", marker = "extra == 'viewer'" },
-    { name = "potracer", marker = "extra == 'notebook'" },
-    { name = "potracer", marker = "extra == 'viewer'" },
-    { name = "pyaudio", marker = "extra == 'audio'" },
-    { name = "pygments", marker = "extra == 'website'" },
-    { name = "pyopengl", marker = "extra == 'viewer'" },
-    { name = "python-frontmatter", marker = "extra == 'website'" },
-    { name = "requests", marker = "extra == 'viewer'" },
-    { name = "skia-pathops" },
-    { name = "skia-pathops", marker = "extra == 'notebook'" },
-    { name = "skia-pathops", marker = "extra == 'viewer'" },
-    { name = "skia-python", marker = "extra == 'notebook'" },
-    { name = "skia-python", marker = "extra == 'viewer'" },
-    { name = "soundfile", marker = "extra == 'audio'" },
-    { name = "sourcetypes", marker = "extra == 'website'" },
-    { name = "tdqm", marker = "extra == 'notebook'" },
-    { name = "ufo2ft", marker = "extra == 'more-fonts'", specifier = ">=3.2.8" },
-    { name = "ufo2ft", marker = "extra == 'viewer'", specifier = ">=3.2.8" },
-    { name = "uharfbuzz", specifier = "<0.47.0" },
-    { name = "unicodedata2", marker = "extra == 'unicode'" },
-]
-provides-extras = ["more-fonts", "viewer", "drawbot", "unicode", "notebook", "audio", "website"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "drawbot", git = "https://github.com/typemytype/drawbot" },
-    { name = "fontmake" },
-    { name = "imagehash" },
-    { name = "ipykernel" },
-    { name = "mdx-linkify" },
-    { name = "measurement" },
-    { name = "noise" },
-    { name = "numpy", specifier = "<2.2" },
-    { name = "opentype-feature-freezer" },
-    { name = "pillow" },
-    { name = "pyaudio" },
-    { name = "pygments" },
-    { name = "pymunk" },
-    { name = "pynput" },
-    { name = "pytest", specifier = ">=8.3.5" },
-    { name = "scikit-image" },
-    { name = "soundfile" },
 ]
 
 [[package]]
