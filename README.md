@@ -1,5 +1,7 @@
 ### Links
 
+- Opening presentation (a keynote file): https://drive.google.com/file/d/1LYWsNRgneoKYClGktAA2Ov9ztkmrjiRr/view?usp=sharing
+
 - Discord: https://discord.gg/726hdcFp
 
 - Download Blender: https://www.blender.org/download/
